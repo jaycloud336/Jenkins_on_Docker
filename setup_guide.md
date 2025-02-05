@@ -100,6 +100,8 @@ Note: A this point you should see the actual container running in the terminal v
 
 You should also see the running contianer present in the the Docker Desktop GUI in the "Containers" section:
 
+![alt text](images/container_in_desktop_gui.png)
+
 ### Note:
 
 ***There are Two Port Mappings!***
@@ -112,16 +114,17 @@ Open a web browser and go to [http://localhost:8080](http://localhost:8080).
 
 You’ll be asked for the admin password you just located.
 
-![initial-unlock-jenkins-screenshot](path/to/initial-unlock-jenkins-screenshot)
-
 ***Note: You have the ability to change the intially provided password as needed.***
 
 ---
 
 As Jenkins begins to load up you will see a
-**Get Started**  screen. Be sure to select the 
-**Install Suggested Plugins** option.
+**Get Started**  screen. 
 ![alt text](images/getting_started.png)
+
+Be sure to select the 
+**Install Suggested Plugins** option.
+
 ![alt text](images/suggested_plugins.png)![alt text](images/suggested_plugin_installation.png)
 
 Continue to wait as this process may take a few moments
@@ -144,8 +147,9 @@ Simply select **Availble Plugins** from the menu and type in the name of the plu
 
 You may choose the plugins that best serve your use case. The following representative of AWS GCP enviroments along with a few for GIT and Terraform:
 
+
+### Plugins:
 ```txt
-Plugins:
 AWS
 AWS Credentials
 Pipeline
@@ -174,9 +178,9 @@ GitHub Integration
 GitHub Authentication
 Pipeline GitHub
 Pipeline GitHub Notify Step
-
-Search Availiable Plugins:
-
+```
+### Search Availiable Plugins: (Organized by application)
+```txt
 AWS
 -AWS Credentials
 -Pipeline: AWS Steps

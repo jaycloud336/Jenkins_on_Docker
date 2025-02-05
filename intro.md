@@ -1,5 +1,7 @@
 # Jenkins
-![alt text](images/jenkins-logo.png)
+<p align="center">
+  <img src="images/jenkins-logo.png" alt="Jenkins Logo" width="25%">
+</p>
 Jenkins is an open-source automation tool that plays a key role in the world of Continuous Integration (CI) and Continuous Delivery (CD). It helps automate the process of building, testing, and deploying software, allowing developers to focus more on writing code instead of manually running each step.
 
 At the heart of Jenkins is its ability to support DevOps practices, where development and operations teams work closely together to deliver software quickly and reliably. With Jenkins, developers can quickly see if their code works, share updates with their team, and deploy new features faster. It’s like having a robot assistant that keeps everything running smoothly, ensuring that software is built, tested, and delivered efficiently.
@@ -22,26 +24,30 @@ Jenkins can help provide your DevOps team with:
 
 ***Collaboration: Teams can merge changes frequently with immediate feedback.***
 
-# Docker?
-![alt text](images/Docker-Logo.png)
+# Docker
+<p align="center">
+  <img src="images/Docker-Logo.png" alt="Docker Logo">
+</p>
 Docker is a containerization platform that allows developers to package applications and their dependencies into an isolated enviroment called a containers. These containers simar ot teh eher real world namesake are standardized. muach like how shipping containers are typically of simlar shape and size, Software contiainers are stnadardized to tha tensure that software runs consistently across different environments.
 
 ## What can Docker do?:
 
-Portability: Run applications anywhere, from local machines to cloud servers.
+***Portability: Run applications anywhere, from local machines to cloud servers.***
 
-Isolation: Prevent conflicts between applications by running them in separate containers.
+***Isolation: Prevent conflicts between applications by running them in separate containers.***
 
-Efficiency: Uses fewer resources than traditional virtual machines.
+***Efficiency: Uses fewer resources than traditional virtual machines.***
 
-Scalability: Easily scale applications by spinning up additional containers.
+***Scalability: Easily scale applications by spinning up additional containers.***
 
 ## A Dynamic Devops Duo: Jenkins + Docker!
 
 Combining Jenkins and Docker enhances automation, reliability, and scalability in DevOps workflows. Here’s why they work well together:
 
 ## Jenkins + Docker: Standardization and Isolation for DevOps Success
-![alt text](images/jenkins_docker.png)
+<p align="center">
+  <img src="images/jenkins_docker.png" alt="Jenkins and Docker">
+</p>
 Running Jenkins inside a Docker container offers significant benefits, especially when it comes to **isolation** and **standardization**. Here's how this combination enhances your DevOps pipeline:
 
 1. **Isolation & Standardization**  
